@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: djangorestframework_simplejwt
-  version: 5.5.0
+  version: 5.5.1
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/djangorestframework_simplejwt-${{ version }}.tar.gz
-  sha256: 474a1b737067e6462b3609627a392d13a4da8a08b1f0574104ac6d7b1406f90e
+  sha256: e72c5572f51d7803021288e2057afcbd03f17fe11d484096f40a460abc76e87f
 
 build:
   number: 0
